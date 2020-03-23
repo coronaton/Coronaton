@@ -21,7 +21,7 @@
 									<a href="https://instagram.com" class="btn btn-icon btn-link btn-neutral btn-lg">
 										<i class="fab fa-instagram"></i>
 									</a>
-									<a href="#corona-solution" class="btn btn-info btn-lg mr-3">
+									<a href="./starter/#corona-solution" class="btn btn-info btn-lg mr-3">
 										Conozca más
 									</a>
 								</div>
@@ -33,67 +33,67 @@
 		</div>
 
 
-			<div class="projects-5" id="corona-solution">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 ml-auto mr-auto text-center">
-							<h2 class="title">We have many advantages</h2>
-							<h4 class="description">This is the paragraph where you can write more details about
-								your projects. Keep you user engaged by providing meaningful information.</h4>
-							<div class="section-space"></div>
-						</div>
+		<div class="projects-5" id="corona-solution">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 ml-auto mr-auto text-center">
+						<h2 class="title">¿Qué es Coronatón?</h2>
+						<h4 class="description">This is the paragraph where you can write more details about
+							your projects. Keep you user engaged by providing meaningful information.</h4>
+						<div class="section-space"></div>
 					</div>
-					<div class="row">
-						<div class="col-md-5 ml-auto">
-							<card type="background" raised class="card-background-product"
-								style="background-image: url('img/project8.jpg')">
-								<h2 class="card-title">Social Analytics</h2>
-								<p class="card-description">
-									Insight to help you create, connect, and convert. Understand Your Audience's
-									Interests, Influence, Interactions, and Intent. Discover emerging topics and
-									influencers to reach new audiences.
-								</p>
-								<badge type="neutral">Analytics</badge>
-							</card>
-						</div>
-						<div class="col-md-5 mr-auto">
-							<info-section type="danger" icon="now-ui-icons ui-2_chat-round" title="Listen to Social Conversations"
-								description="Gain access to the demographics, psychographics, and location of unique people who talk about your brand." />
-
-							<info-section type="danger" icon="now-ui-icons business_chart-pie-36" title="Performance Analyze"
-								description="Unify data from Facebook, Instagram, Twitter, LinkedIn, and Youtube to gain rich insights from easy-to-use reports." />
-
-							<info-section type="danger" icon="now-ui-icons design-2_ruler-pencil" title="Social Conversions"
-								description="Track actions taken on your website that originated from social, and understand the impact on your bottom line." />
-						</div>
+				</div>
+				<div class="row">
+					<div class="col-md-5 ml-auto">
+						<card type="background" raised class="card-background-product"
+							style="background-image: url('img/project8.jpg')">
+							<h2 class="card-title">Social Analytics</h2>
+							<p class="card-description">
+								Insight to help you create, connect, and convert. Understand Your Audience's
+								Interests, Influence, Interactions, and Intent. Discover emerging topics and
+								influencers to reach new audiences.
+							</p>
+							<badge type="neutral">Analytics</badge>
+						</card>
 					</div>
-					<hr />
-					<div class="row">
-						<div class="col-md-5 ml-auto mt-5">
-							<info-section type="warning" icon="now-ui-icons users_single-02" title="Work With Any Team"
-								description="Whether it’s for work or even the next family vacation, Trello helps your team." />
+					<div class="col-md-5 mr-auto">
+						<info-section type="danger" icon="now-ui-icons ui-2_chat-round" title="Listen to Social Conversations"
+							description="Gain access to the demographics, psychographics, and location of unique people who talk about your brand." />
 
-							<info-section type="warning" icon="now-ui-icons business_chart-bar-32" title="A Productivity Platform"
-								description="Integrate the apps your team already uses directly into your workflow." />
+						<info-section type="danger" icon="now-ui-icons business_chart-pie-36" title="Performance Analyze"
+							description="Unify data from Facebook, Instagram, Twitter, LinkedIn, and Youtube to gain rich insights from easy-to-use reports." />
 
-							<info-section type="warning" icon="now-ui-icons arrows-1_refresh-69" title="Always In Sync"
-								description="No matter where you are, Trello stays in sync across all of your devices." />
+						<info-section type="danger" icon="now-ui-icons design-2_ruler-pencil" title="Social Conversions"
+							description="Track actions taken on your website that originated from social, and understand the impact on your bottom line." />
+					</div>
+				</div>
+				<hr />
+				<div class="row">
+					<div class="col-md-5 ml-auto mt-5">
+						<info-section type="warning" icon="now-ui-icons users_single-02" title="Work With Any Team"
+							description="Whether it’s for work or even the next family vacation, Trello helps your team." />
 
-						</div>
-						<div class="col-md-5 mr-auto">
-							<card type="background" raised class="card-background-product"
-								style="background-image: url('img/project9.jpg')">
-								<h2 class="card-title">Trello lets you work.</h2>
-								<p class="card-description text-white">
-									Trello’s boards, lists, and cards enable you to organize and prioritize your
-									projects in a fun, flexible and rewarding way.
-								</p>
-								<badge type="neutral">Trello</badge>
-							</card>
-						</div>
+						<info-section type="warning" icon="now-ui-icons business_chart-bar-32" title="A Productivity Platform"
+							description="Integrate the apps your team already uses directly into your workflow." />
+
+						<info-section type="warning" icon="now-ui-icons arrows-1_refresh-69" title="Always In Sync"
+							description="No matter where you are, Trello stays in sync across all of your devices." />
+
+					</div>
+					<div class="col-md-5 mr-auto">
+						<card type="background" raised class="card-background-product"
+							style="background-image: url('img/project9.jpg')">
+							<h2 class="card-title">Trello lets you work.</h2>
+							<p class="card-description text-white">
+								Trello’s boards, lists, and cards enable you to organize and prioritize your
+								projects in a fun, flexible and rewarding way.
+							</p>
+							<badge type="neutral">Trello</badge>
+						</card>
 					</div>
 				</div>
 			</div>
+		</div>
 
 		<div class="section">
 			<div style="width: 80%; margin: auto">
