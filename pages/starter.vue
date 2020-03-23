@@ -21,10 +21,15 @@
 									<a href="https://instagram.com" class="btn btn-icon btn-link btn-neutral btn-lg">
 										<i class="fab fa-instagram"></i>
 									</a>
-									<a href="./starter/#corona-solution" class="btn btn-info btn-lg mr-3">
-										Conozca más
-									</a>
 								</div>
+								<div class="buttons">
+									<a href="./starter/#donation-button" class="btn btn-info btn-lg mr-3" target="_blank">
+										Done Aquí
+									</a>
+									<a href="https://forms.gle/YRYiD2H88aPvi51H9" class="btn btn-primary btn-lg mr-3">
+										Regístrese como beneficiario
+									</a>									
+								</div>								
 							</div>
 						</div>
 					</div>
@@ -95,19 +100,19 @@
 			</div>
 		</div>
 
-		<div class="about-description text-center">
+		<div class="about-description text-center" id="donation-map">
 			<div class="features-3">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 mr-auto ml-auto">
 							<h2 class="title">Mapa de población vulnerable y coronavirus</h2>
-							<h4 class="description">The CloudCheckr Cloud Management Platform (CMP) provides
-								full visibility and control to reduce costs, improve cybersecurity posture, and
-								automate critical tasks.</h4>
+							<h4 class="description">A través de este mapa logramos identificar la ubicación de la población 
+								vulnerable en Cundinamarca y Bogotá, con el fin de gestionar las donaciones de forma eficiente.
+							</h4>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-9 ml-auto mr-auto">
+						<div class="col-sm-12 col-md-9 ml-auto mr-auto">
 							<div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0"
 									marginwidth="0" title="Testing 01"
 									src="//www.arcgis.com/apps/Embed/index.html?webmap=13106e3344d64fd28254ece3b3e3885f&extent=-80.3107,0.3572,-69.5441,7.0519&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe>
@@ -116,54 +121,57 @@
 					</div>
 					<div class="row">
 						<col-6 class="ml-auto mr-auto">
-							<button class="btn btn-success btn-round mt-4 btn-lg">
+						<a href="https://vaki.co/vaki/CoronatonColombia" target="_blank">
+							<button class="btn btn-success btn-round mt-4 btn-lg" id="donation-button">
 								¡Dona!
-							</button>						
+							</button>												
+						</a>
+						
 						</col-6>
 					</div>
 				</div>
 			</div>
 		</div>
 
-			<div class="about-team team-4">
+		<div class="about-team team-4">
 
 
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 ml-auto mr-auto text-center">
-							<h2 class="title">We are nerd rockstars</h2>
-							<h4 class="description">This is the paragraph where you can write more details about
-								your team. Keep you user engaged by providing meaningful information.</h4>
-						</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 ml-auto mr-auto text-center">
+						<h2 class="title">We are nerd rockstars</h2>
+						<h4 class="description">This is the paragraph where you can write more details about
+							your team. Keep you user engaged by providing meaningful information.</h4>
 					</div>
+				</div>
 
-					<div class="row">
-						<div v-for="member in team" :key="member.id" class="col-xl-6 col-lg-7 ml-auto mr-auto">
-							<card type="profile" plain>
-								<div slot="raw-content" class="row">
-									<div class="col-md-5">
-										<div class="card-image">
-											<a :href="member.linkedin">
-												<img class="img img-raised rounded" :src="member.picture" />
-											</a>
-										</div>
+				<div class="row">
+					<div v-for="member in team" :key="member.id" class="col-xl-6 col-lg-7 ml-auto mr-auto">
+						<card type="profile" plain>
+							<div slot="raw-content" class="row">
+								<div class="col-md-5">
+									<div class="card-image">
+										<a :href="member.linkedin">
+											<img class="img img-raised rounded" :src="member.picture" />
+										</a>
 									</div>
-									<div class="col-md-7">
-										<div class="card-body">
-											<h4 class="card-title">{{ member.name }}</h4>
-											<h6 class="category">{{ member.position }}</h6>
-											<p class="card-description">{{ member.description }}</p>
-											<div class="card-footer">
-												<a :href="member.linkedin" class="btn btn-icon btn-neutral btn-twitter"><i class="fab fa-linkedin"></i></a>
-											</div>
+								</div>
+								<div class="col-md-7">
+									<div class="card-body">
+										<h4 class="card-title">{{ member.name }}</h4>
+										<h6 class="category">{{ member.position }}</h6>
+										<p class="card-description">{{ member.description }}</p>
+										<div class="card-footer">
+											<a :href="member.linkedin" class="btn btn-icon btn-neutral btn-twitter"><i class="fab fa-linkedin"></i></a>
 										</div>
 									</div>
 								</div>
-							</card>							
-						</div>
+							</div>
+						</card>							
 					</div>
 				</div>
 			</div>
+		</div>
 
 		<div class="section">
 			<div class="about-office">
