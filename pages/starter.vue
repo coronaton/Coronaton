@@ -18,7 +18,19 @@
 						marginwidth="0" title="Testing 01"
 						src="//www.arcgis.com/apps/Embed/index.html?webmap=13106e3344d64fd28254ece3b3e3885f&extent=-80.3107,0.3572,-69.5441,7.0519&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe>
 				</div>
+
+				<div style="margin: auto">
+					<a href="https://vaki.co/CoronatonColombia" target="_blank">
+						<button class="btn btn-success btn-round mt-4 btn-lg">
+							¡Dona!
+						</button>
+					</a>
+
+				</div>
+
 			</div>
+
+
 
 
 
