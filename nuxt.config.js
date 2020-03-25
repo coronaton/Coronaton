@@ -16,7 +16,7 @@ module.exports = {
     }
   },
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Geo Ayudas' || process.env.npm_package_name,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=1, shrink-to-fit=no' },

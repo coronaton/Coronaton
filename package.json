@@ -1,7 +1,7 @@
 {
-  "name": "Coronaton",
+  "name": "geoayudas",
   "version": "1.0.0",
-  "description": "Coronatón. Distribución inteligente de recursos",
+  "description": "Geo Ayudas. Distribución inteligente de recursos",
   "author": "dacarva",
   "private": true,
   "scripts": {
