@@ -5,18 +5,18 @@
             menu-classes="ml-auto">
         <template slot-scope="{toggle, isToggled}">
                 <nuxt-link v-popover:popover1 class="navbar-brand" to="/">
-                    Now Ui Kit Pro
+                    Geo Ayudas
                 </nuxt-link>
-                <el-popover
+                <!-- <el-popover
                         ref="popover1"
                         popper-class="popover"
                         placement="bottom"
                         width="300"
                         trigger="hover">
                     <div class="popover-body">Designed by Invision. Coded &nbsp; by CreativeTim and BinarCode</div>
-                </el-popover>
+                </el-popover> -->
         </template>
-        <template slot="navbar-menu">
+        <!-- <template slot="navbar-menu">
             <drop-down tag="li" title="Components" icon="now-ui-icons design_app" class="nav-item">
               <nav-link to="/">
                 <i class="now-ui-icons design_image"></i> Presentation
@@ -97,7 +97,7 @@
                 </a>
             </li>
 
-        </template>
+        </template> -->
     </navbar>
 </template>
 

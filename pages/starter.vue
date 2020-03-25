@@ -8,7 +8,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-7 ml-auto text-right">
-								<h1 class="title">Coronatón</h1>
+								<h1 class="title">GeoAyudas</h1>
 								<h4 class="description">Gestionamos tus donaciones para la población más vulnerable, afectada por el Coronavirus COVID-19 de acuerdo a sus necesidades y ubicación</h4>
 								<br />
 								<div class="buttons">
@@ -38,7 +38,7 @@
 		</div>
 
 
-		<div class="projects-5" id="corona-solution">
+		<div class="projects-5" id="corona-solution" style="display: none">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 ml-auto mr-auto text-center">
@@ -139,9 +139,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 ml-auto mr-auto text-center">
-						<h2 class="title">We are nerd rockstars</h2>
-						<h4 class="description">This is the paragraph where you can write more details about
-							your team. Keep you user engaged by providing meaningful information.</h4>
+						<h2 class="title">Nuestro equipo</h2>
+						<h4 class="description">Somos un equipo multidisciplinario, con el único objetivo de ayudar a la población más vulnerable mediante el uso de la tecnología.</h4>
 					</div>
 				</div>
 
@@ -173,7 +172,7 @@
 			</div>
 		</div>
 
-		<div class="section">
+		<div class="section" style="display: none">
 			<div class="about-office">
 				<div class="container">
 					<div class="row text-center">
@@ -286,65 +285,65 @@
 				},
 				team: [
 					{
-						name: 'Angélica',
-						position: 'CMO',
-						description: 'Excelente miembro del equipo',
+						name: 'Angélica Duque',
+						position: 'Líder de Marketing',
+						description: 'Profesional en Relaciones Internacionales y 15 años de experiencia en el área comercial, marketing e innovación.',
 						picture: 'img/team/angelica.jpg',
 						linkedin: 'https://www.linkedin.com/in/angelica-duque-echeverry/'
 					},
 					{
 						name: 'Nicolás González',
-						position: 'CEO',
-						description: 'Excelente miembro del equipo',
+						position: 'Jefe de relaciones públicas',
+						description: 'Especialista en relaciones públicas con 10 años de experincia en marketing, servicio al cliente y emprendimiento',
 						picture: 'img/team/nicolas-gonzalez.jpg',
 						linkedin: 'https://www.linkedin.com/in/nicolas-gonzalez-delgado-89b28610a/'
 					},
 					{
 						name: 'Nicolás García',
-						position: 'CEO',
-						description: 'Excelente miembro del equipo',
+						position: 'Product Manager',
+						description: 'Diseñador con 3 años de experiencia creando productos digitales para agencias y startups',
 						picture: 'img/team/nicolas-garcia.jpg',
 						linkedin: 'https://www.linkedin.com/in/nicolasgardila'
 					},
 					{
 						name: 'Isabel Marín',
 						position: 'Desarrolladora Backend',
-						description: 'Excelente miembro del equipo',
+						description: 'Ingeniera mecatrónica con experiencia en sistemas de agricultura de precisión y desarrollo backend',
 						picture: 'img/team/isabel.jpg',
 						linkedin: 'https://www.linkedin.com/in/maisabelmarinh/'
 					},
 					{
 						name: 'Julián Patarroyo',
-						position: 'COO',
-						description: 'Excelente miembro del equipo',
+						position: 'Diseñador UX/UI',
+						description: 'Diseñador UX/UI con más de 5 años de experiencia en diseño de marcas, diseño de productos digitales y marketing digital',
 						picture: 'img/team/julian.jpg',
 						linkedin: 'https://www.linkedin.com/in/julianpatarroyo/'
 					},
 					{
 						name: 'Diana Hurtado',
-						position: 'CTO',
-						description: 'Excelente miembro del equipo',
+						position: 'Especialista en GIS',
+						description: 'Ingeniera Forestal con experiencia en procesos de consulta previa, sistemas de información geográfica y desarrollo web, ',
 						picture: 'img/team/diana.jpg',
 						linkedin: 'https://www.linkedin.com/in/dianacarolinahurtadoh/'
 					},								
 					{
 						name: 'David Carvajal',
-						position: 'CEO',
-						description: 'Excelente miembro del equipo',
+						position: 'Desarrollador fullstack',
+						description: 'Ingeniero Electrónico y Mecánico con 10 años de experiencia y desarrollo de productos en energía, agricultura, y blockchain.',
 						picture: 'img/team/david.jpg',
 						linkedin: 'https://www.linkedin.com/in/dacarva'
 					},
 					{
 						name: 'Juan Sarmiento',
-						position: 'CMMMO',
-						description: 'Excelente miembro del equipo',
+						position: 'Analista financiero',
+						description: 'Ingeniero industrial con énfasis en las areas de finanzas y producción. Con Experiencia en el sector petrolero y en marketing.',
 						picture: 'img/team/juan.jpg',
 						linkedin: 'https://www.linkedin.com/in/juansarmientoc/'
 					},					
 					{
 						name: 'Rafael Donado',
-						position: 'COO',
-						description: 'Excelente miembro del equipo',
+						position: 'Gerente financiero',
+						description: 'Analista de inversión con 8 años de experiencia en IFC (World Bank) en proyectos de alto impacto para el sector agrícola y farmacéutico.',
 						picture: 'img/team/rafael.jpg',
 						linkedin: 'https://www.linkedin.com/in/jose-rafael-donado-vallejo-2a90a1b0/'
 					},										

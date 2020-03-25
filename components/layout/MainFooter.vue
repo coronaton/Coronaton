@@ -3,7 +3,7 @@
             :class="{[`footer-${type}`]: type}"
             :data-background-color="backgroundColor">
         <div class="container">
-            <nav>
+            <!-- <nav>
                 <ul>
                     <li>
                         <a href="https://www.creative-tim.com">
@@ -26,12 +26,9 @@
                         </a>
                     </li>
                 </ul>
-            </nav>
+            </nav> -->
             <div class="copyright">
-                &copy; {{year}}, Designed by
-                <a href="https:///www.invisionapp.com" target="_blank" rel="noopener" class="text-success">Invision</a>. Coded by
-                <a href="https://binarcode.com" target="_blank" class="text-success" rel="noopener">BinarCode</a> and
-                <a href="https://www.creative-tim.com" target="_blank" class="text-success" rel="noopener">Creative Tim</a>.
+                &copy; {{year}}, Diseñado por GeoAyudas
             </div>
         </div>
     </footer>

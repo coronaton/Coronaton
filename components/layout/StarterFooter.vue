@@ -3,7 +3,7 @@
             :class="{[`footer-${type}`]: type}"
             :data-background-color="backgroundColor">
         <div class="container">
-            <nav>
+            <!-- <nav style="display: none">
                 <ul>
                     <li>
                         <a href="https://www.creative-tim.com">
@@ -26,7 +26,7 @@
                         </a>
                     </li>
                 </ul>
-            </nav>
+            </nav> -->
             <div class="copyright">
                 &copy; {{year}}, Designed by
                 <a href="https:///www.invisionapp.com" target="_blank">Invision</a>. Coded by
